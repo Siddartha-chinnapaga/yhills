@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="project1.css">
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary"  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"  style="color: black;">BYFOODS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"  style="color: black;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about " >About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#team" >Team</a> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+             
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">CHICKEN BIRYANI</a></li>
+                  <li><a class="dropdown-item" href="#">SHAWARMA</a></li>
+                  <li><a class="dropdown-item" href="#">PIZZA</a></li>
+                  <li><a class="dropdown-item" href="#">PANEER TIKKA</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">OREO SHAKE</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+
+            <button class="btn btn-outline-success" id="oh" type="submit" onclick="location.href='link.html' ">sign in</button>
+            <br>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" id="okk" style="border-color: black;" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" id="ok" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+      <div class="container" id="home">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://th.bing.com/th/id/OIP.pA3QV9le3tWkxzb9gqli0gHaFj?rs=1&pid=ImgDetMain" height="600" class="d-block w-100" alt="biryani">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>biryani</h5>
+              <p>The famous HYDERABADI biryani...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.BBgxLHPK5wyxlCfGqanwvQHaFj?w=550&h=413&rs=1&pid=ImgDetMain" height="600" class="d-block w-100" alt="Shawarma">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>SHAWARMA</h5>
+              <p>Find your soul with this juicy SHAWARMA...</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/OIP.0TXQzFcc6UMWJM8M7VQXSQHaEo?rs=1&pid=ImgDetMain" height="600" class="d-block w-100" alt="PIZZA">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>PIZZA</h5>
+              <p>Make your circle big by sharing this cheesy PIZZA...</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+      <div class="gap">
+
+
+      </div>
+      <div class="container" id="about">
+        <div class="card text-bg-dark">
+          <img src="https://www.brothersgerard.com/cdn/shop/files/background-ingredients-mobile_4500x.jpg?v=1632257545" class="card-img" alt="..." style="height: 400px;">
+          <div class="card-img-overlay">
+            <h2 class="card-title" style=" font-family:cursive;">ABOUT</h2>
+            <pre>    
+            </pre>
+            <h5 class="card-text">Byfoods  is  a  treasure  trove  of  culinary  inspiration,  featuring  mouthwatering  recipes,  handy  cooking  tips,  and  fascinating  food stories.
+            <h5> Whether you're craving the comforting flavors of home-cooked Indian meals or eager to explore new cuisines from around</h5>
+            <h5> the globe, Byfoods has something to satisfy every palate. With our user-friendly interface and informative content,</h5>
+            <h5>We serve as a trusted companion for both seasoned cooks and kitchen newcomers alike.</h5>
+            <h5> Dive into the world of flavors with Byfoods and embark on a delicious journey of culinary discovery.</h5>
+            <h5> We provides a satisfying culinary experience for food enthusiasts everywhere.</h5>
+
+
+
+
+
+            </h5>
+            
+          </div>
+        </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="container" id="team">
+
+        <hr class="featurette-divider">
+    
+        <div class="row featurette">
+           <div class="col-md-7">
+             <h2 class="featurette-heading fw-normal lh-1" style="color:  rgb(181, 94, 6);">ARJUN <span class="text-body-secondary"></span></h2>
+             <p class="lead">
+
+               Head Chef<br>
+              
+                Mastered in cooking at Culinary Institute of America<br>
+              
+                Hyderabad, India</p>
+             <small  style="color: white">"Cooking is the passionate alchemy of transforming ingredients into unforgettable experiences.""
+              <br>-Arjun
+             </small>
+           </div>
+           <div class="col-md-5">
+             <img src="https://img.freepik.com/premium-photo/handsome-male-master-chef-smiling-cook-food-generate-ai_98402-21486.jpg" height="500px" width="500px" style="background-color: rgb(172, 119, 55);">
+           </div>
+         </div>
+    
+         <hr class="featurette-divider">
+    
+         <div class="row featurette">
+           <div class="col-md-7 order-md-2">
+             <h2 class="featurette-heading fw-normal lh-1" style="color:  rgb(181, 94, 6);" id="man">GANESH<span class="text-body-secondary"></span></h2>
+             <p class="lead" id="mano"> Manager BYFOODS<br>
+
+               Master's Degree in Business Administration and Culinary Arts<br>
+              Hyderabad,India
+              
+              
+              
+              
+              
+              
+              </p>
+             <SMALL style="color: white" id="mand">"Balancing business savvy with culinary finesse, he orchestrates the perfect harmony in the kitchen and the boardroom."<br>-Ganesh</SMALL>
+           </div>
+           <div class="col-md-5 order-md-1">
+             <img src="https://eatnorth.com/sites/default/files/styles/opengraph/public/field/image/chef_yves_potvin_pica.jpg?itok=qhZ254cd" id="manag" height="400px" width="400px">
+           </div>
+         </div> 
+    
+         <hr class="featurette-divide">
+         <div class="row featurette">
+           <div class="col-md-7">
+             <h2 class="featurette-heading fw-normal lh-1" style="color:  rgb(181, 94, 6);" >GOPIKA<span class="text-body-secondary"></span></h2>
+             <p class="lead">
+
+               Service Manager & Waitress<br>
+              
+               Master's Degree in Communication<br>
+              
+              Hyderabad,India</p>
+             <small style="color: white">" seamless blend of communication finesse and service excellence creates unforgettable dining experiences."<br>-Gopika</small>
+           </div>
+           <div class="col-md-5">
+             <img src="https://img.freepik.com/premium-photo/beautiful-cute-woman-model-dressed-as-baker-smiling_483949-4798.jpg" height="550px" width="500px">
+           </div>
+         </div>
+    
+         <hr class="featurette-divider">
+    
+        <!-- /END THE FEATURETTES -->
+    
+        </div>
+      </div>
+      
+
+      
+
+      
+
+
+
+
+    <div id="gallery">
+      
+
+
+
+      <div class="album py-5 bg-light" id="turn">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg" alt="BUTTER CHICKEN MASALA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>BUTTER CIIKEN MASALA <br> <small>price 199/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.budgetbytes.com/wp-content/uploads/2013/07/Creamy-Tomato-Spinach-Pasta-V2-bowl.jpg" alt="PASTA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PASTA<br> <small>price 179/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/mzmgrwjywstcs9bwvco5" alt="SHAWARMA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>SHAWARMA <br> <small>price 159/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/03/Best-Kadai-Paneer-Recipe.jpg" alt="PANEER BUTTER MASALA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PANEER BUTTER MASALA<br> <small>price 299/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/R.904b06129c0dc95dbe984074a2567224?rik=%2bMbB0wia2L0IzQ&riu=http%3a%2f%2fslurrp.club%2fwp-content%2fuploads%2f2019%2f05%2fDSC_0935.jpg&ehk=C3vZ3lQkhVpDqDW8sx%2bLW2jAZ%2bg7e3MI%2fFD5gkchMxk%3d&risl=&pid=ImgRaw&r=0" alt="POHA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>POHA<br> <small>price 119/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://i2.wp.com/www.scratchingcanvas.com/wp-content/uploads/2017/06/Pabda-Jhol.7.jpg?fit=1200%2C801" alt="FISH CURRY" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>FISH CURRY <br> <small>price 219/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.B4LAUN1q2D1koguMA9aFKwHaFi?rs=1&pid=ImgDetMain" alt="PANEER TIKKA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PANEER TIKKA<br> <small>price 199/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.iF4Nv-m2t_Rd7dvoV37UlgHaHa?rs=1&pid=ImgDetMain" alt="PALAK PANEER" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PALAK PANEER <br> <small>price 179/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.E1oSjTlOwGAANJjGQHOVgAHaLH?rs=1&pid=ImgDetMain" alt="ALOO GHOBHI" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>ALOO GHOBI <br> <small>price 89/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/R.5e9d914158f20abde43751bc56170aff?rik=IVjPf86fA0ExdQ&riu=http%3a%2f%2fwww.zedamagazine.com%2fwp-content%2fuploads%2f2018%2f06%2fIndian-Food-Samosa-Dish-HD-Wallpapers.jpg&ehk=CIZsxVe5CLA%2fpZXkiCdJuoTdrhucm2fgYqo%2fkXVfHls%3d&risl=&pid=ImgRaw&r=0" alt="SAMOSA" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>SAMOSA <br> <small>price 49/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.Bm6vDKOWsyUrYW3JQjXxVgHaLH?rs=1&pid=ImgDetMain" alt="TANDOORI CHICKEN" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>TANDOORI CHICKEN <br> <small>price 259/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Pav-Bhaji-1.jpg" alt="PAAV BAJJI" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PAAV BAJJI <br> <small>price 99/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.c-wZHDF77wIkMQj2tN47SAHaEq?rs=1&pid=ImgDetMain" alt="NOODLES" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>NOODLES<br> <small>price 119/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.thespruceeats.com/thmb/DXZoAJoKTPS7BKEyk4H-Gw3puhc=/6016x4016/filters:fill(auto,1)/steamed-momos-wontons-1957616-hero-01-1c59e22bad0347daa8f0dfe12894bc3c.jpg" alt="MOMOOS" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>MOMOOS <br> <small>price 129/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.9WOvj3rAHJ_vug999PKi0QHaHa?rs=1&pid=ImgDetMain" alt="CHICKEN BURGER" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>CHICKEN BURGER <br> <small>price 99/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.kq4e7jHaSt3t1BAKFKVjNgHaHa?rs=1&pid=ImgDetMain" alt="GULAAB JAMUN " height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>GULAAB JAMUN <br> <small>price 49/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/R.f5f842cb91597146df97a40f962fa699?rik=Ovkff7B2O5HSTA&riu=http%3a%2f%2fwww.rachnas-kitchen.com%2fwp-content%2fuploads%2f2016%2f02%2fimage-4.jpeg&ehk=RrNlaewVhN38uYqx70k0WkNrcx3RyP%2fJzrFRJ76PQP8%3d&risl=&pid=ImgRaw&r=0" alt="RASMALAI" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>RASMALAI <br> <small>price 79/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://i.redd.it/f69km2tizqx11.jpg" alt="veg thali" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>VEG THALI <br> <small>price 129/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.lq605u9Yd9p-pjwEbkE79QHaLH?rs=1&pid=ImgDetMain" alt="milk shake" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>MILK SHAKE<br> <small>price 159/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://th.bing.com/th/id/OIP.weshjmNWMO58Zs7UTHGBzwHaHa?rs=1&pid=ImgDetMainm" alt="cake" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>CAKE <br> <small>price 89/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.licious.in/blog/wp-content/uploads/2022/04/Keema-Paratha_24241-min-1-scaled.jpg" alt="parata" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PARATA <br> <small>price 99/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.thestatesman.com/wp-content/uploads/2019/04/idli.jpg" alt="idli" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>IDLI <br> <small>price 59/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://static.toiimg.com/photo/msid-65164556/65164556.cms" alt="dosa" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>DOSA <br> <small>price 69/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://i.redd.it/c4qzatq7kuw21.jpg" alt="chicken mandi" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>CHICKEN MANDI <br> <small>price 699/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://wallpapercave.com/wp/wc1813161.jpg" alt="pizza" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>PIZZA<br> <small>price 195/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Mutton-Biryani.jpg" alt="mutton biryani" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>MUTTON BIRYANI <br> <small>price 299/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqROKUkfvX5dnxut3Q4TTPP2ZxL6rB2dmBA&usqp=CAU" alt="mutton biryani" height="225">
+                <div class="card-body">
+                  <p class="card-text"><b>CHICKEN KEBAB <br> <small>price 199/-</small></b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" style="color: black;">Order</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div> 
+          <div class="gap">
+
+
+          </div> 
+          
+         
+            <div class="gap">
+
+
+            </div> 
+  
+    
+    
+          <div class="container" id="services">
+            
+              <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <image src="https://th.bing.com/th/id/OIP.TzvpUJk1Wnism3H1CjH_YgAAAA?w=474&h=474&rs=1&pid=ImgDetMain" id="byf1"> </image>
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1>BYFOODS</h1>
+                        <h5 class="opacity-75">Where every bite tells a story beyond the restaurant walls.</h6>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <image src="https://thearchitecturedesigns.com/wp-content/uploads/2019/10/Garden-Restaurant-Interior15-768x512.jpg" id="byf2"></image>
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>OUT DOOR</h1>
+                        <h6 class="opacity-75">Step into ByFoods' outdoor oasis, where the breeze carries whispers of flavor and every moment becomes a culinary escape.</h6>
+                        
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <image src="https://nbcconferencecentre.com/content/uploads/sites/2/2018/02/2017121400120-RubenMay-_RU18490.jpg" id="byf3"></image>
+                    
+                    <div class="container">
+                      <div class="carousel-caption text-end">
+                        <h1>IN DOOR</h1>
+                        <h6 class="opacity-75">Indulge in ByFoods' indoor sanctuary, where every corner whispers tales of taste and warmth embraces every guest.</h6>
+                        
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="gap">
+
+
+              </div>
+            </div> 
+            <div class="gap">
+
+
+            </div>
+            <div class="gap">
+
+
+            </div>
+            <div class="gap">
+
+
+            </div> 
+            
+              <!-- Marketing messaging and featurettes
+              ================================================== -->
+              <!-- Wrap the rest of the page in another container to center all the content. -->
+            
+              <div class="container " id="testimonials">
+            
+                <!-- Three columns of text below the carousel -->
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="https://cdn-az.allevents.in/events5/banners/5dc330c60e30f4b2d8f15208c3a0b7424573ce1d6bd40dcb922a0eb7676ff222-rimg-w1200-h675-gmir.jpg?v=1677315340" class="rounded-circle" id="ob1">
+                  
+                    <h2 class="fw-normal" style="color:  rgb(181, 94, 6);">Perfect Dine</h2>
+                    <p>We celebrated our 1st anniversary<br>
+                     And the flavourful food makes perfect anniversary to us.</p>
+                    
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img src="https://howtobeagoodserver.com/wp-content/uploads/2023/07/Open-Hand-Service-Method.jpg" class="rounded-circle" id="ob2">
+                    
+                    <h2 class="fw-normal" style="color:  rgb(181, 94, 6);">Very Light..</h2>
+                    <p>The food is very light,it will be helpful for are dieting one's <br>
+                    And the ambiance is so peaceful..</p>
+                    
+                  </div><!-- /.col-lg-4 -->
+                  <div class="col-lg-4">
+                    <img src="https://th.bing.com/th/id/R.ae0b4a9d32b60b0c3d164e071696e154?rik=AfiAo1plDGwUrw&riu=http%3a%2f%2ffiles3.http.videopolis.com%2fpartner%2f3%2f5%2f2%2f1%2f7%2f4%2f9%2f3521749.jpeg&ehk=zwkcrpDJ%2bBrDXMHKq7yAgkfcZQ9otlt9YgxKm9PVIZY%3d&risl=&pid=ImgRaw&r=0" class="rounded-circle" id="ob3">
+                    <h2 class="fw-normal" style="color:  rgb(181, 94, 6);">Date on point</h2>
+                    <p>This is our's first time,this place & ambiance makes so good,I oftenly come here.
+                      <br>Food is never dissapointed me.
+                    </p>
+                    
+                  </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+                <div class="gap">
+
+
+                </div> 
+                
+            
+            
+              
+          
+           
+           
+            </div>
+
+            
+           
+
+            
+           
+
+            
+           
+
+           
+
+           
+
+
+
+
+          
+            <div id="contact">
+              <div class="gap">
+
+
+              </div>
+             
+              <footer class="py-5">
+                <div class="row">
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>About Us</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Careers</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Team</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>By Foods One</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>By Foods Instamart</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>By Foods Genie</li>
+                    </ul>
+                   </div>
+           
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Contact Us</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Help & Support</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Partner With Us</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Ride With Us</li>
+                    </ul>
+                  </div>
+           
+                  <div class="col-6 col-md-2 mb-3">
+                    <h5>Legal </h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Terms & Conditions</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Cookie Policy</li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"></a>Privacy Policy</li>
+ 
+                    </ul>
+                  </div>
+           
+                  <div class="col-md-5 offset-md-1 mb-3">
+                    <form>
+                      <h5>Feedback to our BY FOODS</h5>
+                      <p>Monthly digest of what's new and exciting from us.</p>
+                      <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" id="clr" class="form-control" placeholder="Feedback">
+                        <button class="btn btn-primary" id="but" type="button">Proceed</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+           
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                  <p>© 2024 Company, Inc. All rights reserved.</p>
+                  <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                  </ul>
+                </div>
+              </footer>
+            </div>  
+
+            
+             
+             
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+          </body>
+</html>

@@ -1,0 +1,155 @@
+
+.container-fluid{
+    background-color:rgb(181, 94, 6);
+}
+.placeholder-glow{
+    background-color: rgb(181, 94, 6);
+
+}
+.container{
+    background-color: black;
+}
+body{
+    background-color:black;
+}
+.btn{
+    color: white;
+}
+.btn-group{
+    background-color: rgb(244, 152, 60);
+}
+
+.nav-link{
+    color: black;
+}
+.card-body{
+    background-color: black;
+}
+.card-text{
+    color: white;
+}
+#okk{
+    border-color: white;
+    
+}
+#ok{
+    border-color: white;
+}
+#oh{
+    border-color:white;
+}
+#quote{
+    font-family:cursive;
+    background-color:black;
+    color: rgb(244, 152, 60);
+    text-align: center;
+    font: size 100px;;
+}
+.down{
+    align-content:end;   
+}
+footer{
+    background-color: black;
+}
+h5{
+    color: white;
+}
+ul{
+    color: white;
+}
+p{
+    color: white;
+}
+#but{
+    background-color: rgb(165, 107, 49);
+    border-color: white;
+}
+#clr{
+    border-color: white;
+}
+.container{
+    background-color: black;
+}
+#turn{
+    background-color: black;
+}
+.col{
+    border-color: black;
+}
+
+#back{
+    background-color: black;
+    color: rgb(244, 152, 60);
+
+}
+#spcl{
+    font-family: monospace;
+}
+#back{
+    background-color: black;
+}
+#about{
+    background-color: black;
+    height:470px;
+    color: white;
+}
+.gap{
+    height:40px;
+    background-color: black;
+}
+#services{
+    height: 470px;
+    background-color: black;
+}
+#feedback{
+    color:  rgb(244, 152, 60);
+}
+#oh{
+    border-color: black;
+}
+#oh:hover{
+    background-color: black;
+}
+#ok{
+    border-color: black;
+
+}
+#ok:hover{
+    background-color: black;
+}
+#byf1{
+    height: 650px;
+    width: 1295px;
+}
+#byf2{
+    height: 650px;
+    width: 1295px;
+}
+#byf3{
+    height: 650px;
+    width: 1295px;
+}
+#ob1{
+    object-fit: contain;
+    border-radius: 70%;
+    height:150px;
+    align-content: center;
+}    
+    
+#ob2{
+    object-fit: contain;
+    border-radius: 70%;
+    height:150px;
+    align-content: center;
+}    
+    
+#ob3{
+    object-fit: contain;
+    border-radius: 70%;
+    height:150px;
+    align-content: center;
+}    
+    
+.row{
+    padding: 100px;
+}
